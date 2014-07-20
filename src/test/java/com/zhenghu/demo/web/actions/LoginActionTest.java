@@ -1,4 +1,4 @@
-package fr.edf.bff.actions;
+package com.zhenghu.demo.web.actions;
 
 import org.apache.struts2.StrutsSpringTestCase;
 import org.fest.assertions.api.Assertions;

@@ -1,6 +1,6 @@
-package fr.edf.bff.authentification;
+package com.zhenghu.demo.web.authentification;
 
-import fr.edf.bff.authentification.api.Authenticator;
+import com.zhenghu.demo.web.authentification.api.Authenticator;
 
 public class AuthenticatorImpl implements Authenticator{
 

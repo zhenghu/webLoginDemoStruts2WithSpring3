@@ -1,11 +1,10 @@
-package fr.edf.bff.actions;
+package com.zhenghu.demo.web.actions;
 
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import com.opensymphony.xwork2.ActionSupport;
-
-import fr.edf.bff.authentification.api.Authenticator;
+import com.zhenghu.demo.web.authentification.api.Authenticator;
 
 public class LoginAction extends ActionSupport {
 

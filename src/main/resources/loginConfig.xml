@@ -6,7 +6,7 @@
 	to break up the configuration file into multiple files. -->
 <struts>
 	<package name="login" extends="struts-default" namespace="/">
-		<action name="login" method="execute" class="fr.edf.bff.actions.LoginAction">
+		<action name="login" method="execute" class="com.zhenghu.demo.web.actions.LoginAction">
 			<result name="success">jsp/Welcome.jsp</result>
 			<result name="error">jsp/Login.jsp</result>
 		</action>

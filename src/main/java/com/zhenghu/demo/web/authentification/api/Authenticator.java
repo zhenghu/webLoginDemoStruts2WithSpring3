@@ -1,4 +1,4 @@
-package fr.edf.bff.authentification.api;
+package com.zhenghu.demo.web.authentification.api;
 
 public interface Authenticator {
 
