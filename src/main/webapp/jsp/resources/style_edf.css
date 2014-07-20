@@ -1,0 +1,307 @@
+.page {
+	size: 790px;
+	margin: 0 auto;
+	width: 790px !important;
+}
+
+.help {
+	color: blue;
+	padding-left: 20px;
+	text-align: left;
+}
+
+.file {
+	padding: 2px;
+	width: auto;
+}
+
+
+
+
+
+
+/*------------------------------------------------------------------*/
+/* 				Placement des éléments sur la page	   				*/
+/*------------------------------------------------------------------*/
+.data_research {
+	padding-left: 20px;
+	text-align: left;
+}
+
+.data_create {
+	padding-left: 20px;
+	text-align: left;
+}
+
+.button_save {
+	margin-left: 250px;
+	position: absolute;
+	margin-top: 26px;
+}
+
+
+.button1 {
+    
+	margin-left: 250px;
+	position: absolute;
+	margin-top: 26px;
+}
+
+
+.button2 {
+    
+	margin-left: 250px;
+	position: absolute;
+	margin-top: 56px;
+}
+
+.button_center {
+    
+	text-align: center;
+}
+
+.data_save {
+	text-align: center;
+	padding-right: 20px;
+}
+
+
+
+.data_move {
+	text-align: left;
+	margin-left: 20px;
+}
+
+.data_message {
+	text-align: left;
+	padding-left: 20px;
+}
+
+
+/*------------------------------------------------------------------*/
+/* 				Gestion des tableaux				   				*/
+/*------------------------------------------------------------------*/
+.table_default
+{
+	border-collapse: collapse;
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+}
+
+.td_default
+{
+	padding: 0px;
+	margin: 0px;
+	border: none;
+}
+
+.td_center {
+	text-align: center;
+	padding: 5px;
+	margin: auto;
+	border: 1px solid;
+	border-color: black;
+}
+
+.td_right {
+	text-align: right;
+	padding: 5px;
+	margin: 0px;
+	border: 1px solid;
+	border-color: black;
+}
+
+.td_left {
+	border: 1px solid;
+	border-color: black;
+	text-align: left;
+	padding: 5px;
+	margin: 0px;
+}
+
+.help_table {
+	border: none;
+	border-collapse: collapse;
+	width: 740px;
+	margin: auto;
+}
+
+.head_table {
+	border: 1px solid;
+	border-color: black;
+	font-weight: bold;
+	text-align: center;
+	padding: 5px;
+}
+
+.table_data {
+	border: 1px solid;
+	border-color: black;
+	border-collapse: collapse;
+	width: 740px;
+	margin: auto;
+}
+
+.td_data {
+	text-align: center;
+	border: 1px solid;
+	border-color: black;
+	padding: 5px;
+}
+
+.td_data2 {
+	text-align: left;
+    font-family: serif;
+	padding: 5px;
+}
+
+.table_attribute {
+	max-width: 750px;
+	margin: auto;
+}
+
+.td_checkbox {
+	border: none;
+	padding: 7px;
+}
+
+.td_container {
+	border: none;
+	padding: 7px;
+}
+
+.td_title {
+    font-family: serif;
+	font-size:16px;
+}
+
+
+/*------------------------------------------------------------------*/
+/* 				Redéfinition des balises originelles				*/
+/*------------------------------------------------------------------*/
+BODY {
+	font-family: serif;
+	font-size: 11px;
+	color: black;
+	margin: 0 auto;
+	text-align: center;
+}
+
+TABLE
+{
+	font-family: serif;
+	font-size: 11px;
+	color: black;
+}
+
+LEGEND {
+	text-align: left;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+H1
+{
+	font-size: 32px;
+	font-weight: bold;
+	text-align: left;
+	padding: 5px;
+	margin: 0px;
+    font-family:serif;
+    
+}
+
+H2
+{
+	font-size: 32px;
+	font-weight: bold;
+	text-align: center;
+	padding: 5px;
+	margin: 0px;
+    font-family:serif;
+    
+}
+
+H3{
+	font-size: 9px;
+	padding: 0px;
+	margin: 0px;
+}
+
+SPAN 
+{
+	font-weight: normal;
+}
+
+FORM
+{
+	padding: 0px;
+	margin: 0px
+}
+
+UL {
+	border: none;
+	padding: 0px;
+	margin: 0px;
+	list-style-image: none;
+	list-style: none;
+}
+
+A,A:VISITED {
+	text-decoration: none;
+}
+
+A:HOVER {
+	text-decoration: underline;
+}
+
+LI {
+	border: none;
+	margin: 0px;
+	padding: 0px;
+    text-align:left;
+}
+
+FIELDSET {
+	width: 750px;
+	margin: 0px auto;
+	padding: 5px;
+}
+
+BUTTON {
+	text-align: center;
+}
+
+IMG {
+	width: 200px;
+	height: 100px;
+}
+
+TEXTAREA {
+	text-align: left;
+	font-size: 12px;
+	/*width: 700px;
+	height: 75px;
+    */
+}
+
+TEXTAREA_SECTION {
+	text-align: left;
+	font-size: 12px;
+	width: 1000px;
+	height: 150px;
+
+
+
+INPUT[type='text'] {
+	width: 200px;
+}
+
+INPUT[type='password'] {
+	width: 200px;
+}
+
+
+
+
