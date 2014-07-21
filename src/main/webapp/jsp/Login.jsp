@@ -11,7 +11,7 @@
 
 <body
 	style="background-image: url('jsp/resources/login_background.png');">
-	<html:form action="login.action" method="post">
+	<html:form action="login" method="post">
 
 		<table>
 			<tr>

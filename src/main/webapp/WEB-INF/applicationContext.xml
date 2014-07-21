@@ -12,10 +12,12 @@ http://www.springframework.org/schema/tx
 http://www.springframework.org/schema/tx/spring-tx-3.0.xsd">
  
 	
-	<context:component-scan base-package="com.zhenghu.demo.web.authentification" />
+	<context:component-scan base-package="com.zhenghu.demo.web" />
 	
 	<bean id="authenticatorImpl" class="com.zhenghu.demo.web.authentification.AuthenticatorImpl"/>
-	
 	<bean id="loginAction" class="com.zhenghu.demo.web.actions.LoginAction"/>
+
+    <bean id="welcomeAction" class="com.zhenghu.demo.web.actions.WelcomeAction"/>
+    <bean id="informationBean" class="com.zhenghu.demo.web.model.InformationBean"/>
  
 </beans>

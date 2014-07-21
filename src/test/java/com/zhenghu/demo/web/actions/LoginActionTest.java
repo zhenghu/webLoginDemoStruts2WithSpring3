@@ -6,13 +6,8 @@ import org.junit.Test;
 
 import com.opensymphony.xwork2.ActionProxy;
 
-public class LoginActionTest extends StrutsSpringTestCase {
+public class LoginActionTest extends ConfigTest {
 	
-	@Override
-	public String[] getContextLocations(){
-		return new String[]{"file:src/main/webapp/WEB-INF/applicationContext.xml"};
-	}
-
 	@Test
 	public void test_execute_should_return_sucess_if_login_valid() throws Exception {
 		// Given

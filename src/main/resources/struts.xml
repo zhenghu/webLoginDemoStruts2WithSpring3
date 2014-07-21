@@ -8,6 +8,7 @@
 	<constant name="struts.custom.i18n.resources" value="ApplicationResources" />
 
 	<include file="loginConfig.xml" />
+	<include file="welcomeConfig.xml" />
 
 	<!-- Add addition packages and configuration here. -->
 </struts>
