@@ -1,10 +1,9 @@
 package com.zhenghu.demo.web.actions;
 
-import org.apache.struts2.StrutsSpringTestCase;
+import com.opensymphony.xwork2.ActionProxy;
+import com.zhenghu.demo.web.actions.testutils.ConfigTest;
 import org.fest.assertions.api.Assertions;
 import org.junit.Test;
-
-import com.opensymphony.xwork2.ActionProxy;
 
 public class LoginActionTest extends ConfigTest {
 	

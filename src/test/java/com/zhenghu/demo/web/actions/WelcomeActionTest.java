@@ -2,7 +2,7 @@ package com.zhenghu.demo.web.actions;
 
 import com.opensymphony.xwork2.ActionProxy;
 import com.opensymphony.xwork2.ActionSupport;
-import org.apache.struts2.StrutsSpringTestCase;
+import com.zhenghu.demo.web.actions.testutils.ConfigTest;
 import org.fest.assertions.api.Assertions;
 
 public class WelcomeActionTest extends ConfigTest{
