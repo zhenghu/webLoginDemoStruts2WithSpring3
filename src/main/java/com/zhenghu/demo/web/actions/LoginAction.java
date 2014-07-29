@@ -1,12 +1,13 @@
 package com.zhenghu.demo.web.actions;
 
+import com.opensymphony.xwork2.Preparable;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import com.opensymphony.xwork2.ActionSupport;
 import com.zhenghu.demo.web.authentification.api.Authenticator;
 
-public class LoginAction extends ActionSupport {
+public class LoginAction extends ActionSupport implements Preparable{
 
 	/**
 	 * 
@@ -22,13 +23,19 @@ public class LoginAction extends ActionSupport {
 	@Autowired
 	Authenticator authenticator;
 
+    @Override
+    public void prepare() throws Exception {
+        System.out.print("loading page.....");
+        setUsername("admin");
+    }
+
 	public String execute() {
 
 		if (!authenticator.valid(username, password)) {
 			addActionError(getText("error.login"));
 			return ActionSupport.ERROR;
 		}
-		
+
 		logger.debug("Utilisateur '" + username + "' est login.");
         return ActionSupport.SUCCESS;
 
@@ -49,5 +56,5 @@ public class LoginAction extends ActionSupport {
 	public void setPassword(String password) {
 		this.password = password;
 	}
-		
+
 }
